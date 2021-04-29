@@ -1,0 +1,359 @@
+[
+	{
+		"type": "element",
+		"tagName": "!doctype",
+		"attributes": [
+			{
+				"key": "html",
+				"value": null
+			}
+		],
+		"children": []
+	},
+	{
+		"type": "element",
+		"tagName": "html",
+		"attributes": [],
+		"children": [
+			{
+				"type": "element",
+				"tagName": "head",
+				"attributes": [],
+				"children": [
+					{
+						"type": "text",
+						"content": "\n    "
+					},
+					{
+						"type": "element",
+						"tagName": "link",
+						"attributes": [
+							{
+								"key": "type",
+								"value": "text/css"
+							},
+							{
+								"key": "href",
+								"value": "./Style.css"
+							},
+							{
+								"key": "rel",
+								"value": "Stylesheet"
+							}
+						],
+						"children": []
+					},
+					{
+						"type": "text",
+						"content": "\n  "
+					}
+				]
+			},
+			{
+				"type": "text",
+				"content": "\n  "
+			},
+			{
+				"type": "element",
+				"tagName": "body",
+				"attributes": [
+					{
+						"key": "id",
+						"value": "body"
+					}
+				],
+				"children": [
+					{
+						"type": "text",
+						"content": "\n    "
+					},
+					{
+						"type": "element",
+						"tagName": "form",
+						"attributes": [
+							{
+								"key": "onsubmit",
+								"value": "return calculation()"
+							}
+						],
+						"children": [
+							{
+								"type": "text",
+								"content": "\n      "
+							},
+							{
+								"type": "element",
+								"tagName": "center",
+								"attributes": [],
+								"children": [
+									{
+										"type": "text",
+										"content": "\n        "
+									},
+									{
+										"type": "element",
+										"tagName": "h1",
+										"attributes": [
+											{
+												"key": "class",
+												"value": "header"
+											}
+										],
+										"children": [
+											{
+												"type": "element",
+												"tagName": "i",
+												"attributes": [],
+												"children": [
+													{
+														"type": "text",
+														"content": "Book Your Tickets"
+													}
+												]
+											}
+										]
+									},
+									{
+										"type": "text",
+										"content": "\n        "
+									},
+									{
+										"type": "element",
+										"tagName": "table",
+										"attributes": [],
+										"children": [
+											{
+												"type": "text",
+												"content": "\n          "
+											},
+											{
+												"type": "element",
+												"tagName": "tbody",
+												"attributes": [],
+												"children": [
+													{
+														"type": "element",
+														"tagName": "tr",
+														"attributes": [],
+														"children": [
+															{
+																"type": "text",
+																"content": "\n            "
+															},
+															{
+																"type": "element",
+																"tagName": "td",
+																"attributes": [],
+																"children": [
+																	{
+																		"type": "element",
+																		"tagName": "label",
+																		"attributes": [],
+																		"children": [
+																			{
+																				"type": "text",
+																				"content": "Customer Name"
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"type": "text",
+																"content": "\n            "
+															},
+															{
+																"type": "element",
+																"tagName": "td",
+																"attributes": [],
+																"children": [
+																	{
+																		"type": "text",
+																		"content": "\n              "
+																	},
+																	{
+																		"type": "element",
+																		"tagName": "input",
+																		"attributes": [
+																			{
+																				"key": "type",
+																				"value": "text"
+																			},
+																			{
+																				"key": "id",
+																				"value": "customerName"
+																			},
+																			{
+																				"key": "name",
+																				"value": "customerName"
+																			}
+																		],
+																		"children": []
+																	},
+																	{
+																		"type": "text",
+																		"content": "\n            "
+																	}
+																]
+															},
+															{
+																"type": "text",
+																"content": "\n          "
+															}
+														]
+													},
+													{
+														"type": "text",
+														"content": "\n          "
+													},
+													{
+														"type": "element",
+														"tagName": "tr",
+														"attributes": [],
+														"children": [
+															{
+																"type": "text",
+																"content": "\n            "
+															},
+															{
+																"type": "element",
+																"tagName": "td",
+																"attributes": [],
+																"children": [
+																	{
+																		"type": "element",
+																		"tagName": "label",
+																		"attributes": [],
+																		"children": [
+																			{
+																				"type": "text",
+																				"content": "Address"
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"type": "text",
+																"content": "\n            "
+															},
+															{
+																"type": "element",
+																"tagName": "td",
+																"attributes": [],
+																"children": [
+																	{
+																		"type": "text",
+																		"content": "\n              "
+																	},
+																	{
+																		"type": "element",
+																		"tagName": "textarea",
+																		"attributes": [
+																			{
+																				"key": "rows",
+																				"value": "5"
+																			},
+																			{
+																				"key": "cols",
+																				"value": "20"
+																			},
+																			{
+																				"key": "type",
+																				"value": "text"
+																			},
+																			{
+																				"key": "id",
+																				"value": "Address"
+																			},
+																			{
+																				"key": "name",
+																				"value": "address"
+																			}
+																		],
+																		"children": []
+																	},
+																	{
+																		"type": "text",
+																		"content": "\n            "
+																	}
+																]
+															},
+															{
+																"type": "text",
+																"content": "\n          "
+															}
+														]
+													},
+													{
+														"type": "text",
+														"content": "\n          \n        "
+													}
+												]
+											}
+										]
+									},
+									{
+										"type": "text",
+										"content": "\n        "
+									},
+									{
+										"type": "element",
+										"tagName": "div",
+										"attributes": [
+											{
+												"key": "id",
+												"value": "result"
+											}
+										],
+										"children": []
+									},
+									{
+										"type": "text",
+										"content": "\n      "
+									}
+								]
+							},
+							{
+								"type": "text",
+								"content": "\n    "
+							}
+						]
+					},
+					{
+						"type": "text",
+						"content": "\n  "
+					},
+					{
+						"type": "comment",
+						"content": " Code injected by live-server "
+					},
+					{
+						"type": "text",
+						"content": "\n"
+					},
+					{
+						"type": "element",
+						"tagName": "script",
+						"attributes": [
+							{
+								"key": "type",
+								"value": "text/javascript"
+							}
+						],
+						"children": [
+							{
+								"type": "text",
+								"content": "\n\t// <![CDATA[  <-- For SVG support\n\tif ('WebSocket' in window) {\n\t\t(function () {\n\t\t\tfunction refreshCSS() {\n\t\t\t\tvar sheets = [].slice.call(document.getElementsByTagName(\"link\"));\n\t\t\t\tvar head = document.getElementsByTagName(\"head\")[0];\n\t\t\t\tfor (var i = 0; i < sheets.length; ++i) {\n\t\t\t\t\tvar elem = sheets[i];\n\t\t\t\t\tvar parent = elem.parentElement || head;\n\t\t\t\t\tparent.removeChild(elem);\n\t\t\t\t\tvar rel = elem.rel;\n\t\t\t\t\tif (elem.href && typeof rel != \"string\" || rel.length == 0 || rel.toLowerCase() == \"stylesheet\") {\n\t\t\t\t\t\tvar url = elem.href.replace(/(&|\\?)_cacheOverride=\\d+/, '');\n\t\t\t\t\t\telem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());\n\t\t\t\t\t}\n\t\t\t\t\tparent.appendChild(elem);\n\t\t\t\t}\n\t\t\t}\n\t\t\tvar protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';\n\t\t\tvar address = protocol + window.location.host + window.location.pathname + '/ws';\n\t\t\tvar socket = new WebSocket(address);\n\t\t\tsocket.onmessage = function (msg) {\n\t\t\t\tif (msg.data == 'reload') window.location.reload();\n\t\t\t\telse if (msg.data == 'refreshcss') refreshCSS();\n\t\t\t};\n\t\t\tif (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {\n\t\t\t\tconsole.log('Live reload enabled.');\n\t\t\t\tsessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);\n\t\t\t}\n\t\t})();\n\t}\n\telse {\n\t\tconsole.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');\n\t}\n\t// ]]>\n"
+							}
+						]
+					},
+					{
+						"type": "text",
+						"content": "\n\n"
+					}
+				]
+			}
+		]
+	}
+]

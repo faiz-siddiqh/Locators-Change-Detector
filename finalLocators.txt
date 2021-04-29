@@ -1,0 +1,12 @@
+//form[@onsubmit="return calculation()"]    This locator is Unchanged across versions .
+//h1[@class="header"]        This locator is Unchanged across versions .
+//input[@id="customerName"]   is changed to   //input[@id="NameOfCustomer"]
+//input[@name="customerName"] is changed to   //input[@name="NameOfCustomer"]
+//textarea[@rows="5"]        This locator is Unchanged across versions .
+//textarea[@cols="20"]       This locator is Unchanged across versions .
+//textarea[@id="Address"]    This locator is Unchanged across versions .
+//textarea[@name="address"]   This locator is Unchanged across versions .
+//div[@id="result"]           This locator is Unchanged across versions .
+
+There were 9 locators in Version 1 .
+There are 11 locators in version 2

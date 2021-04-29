@@ -1,0 +1,8 @@
+//form[@onsubmit="return calculation()"]
+//h1[@class="h1"]
+//input[@id="customerName"]
+//input[@name="customerName"]
+//textarea[@rows="5"]
+//textarea[@id="Address"]
+//textarea[@name="address"]
+//div[@id="result"]

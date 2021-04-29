@@ -1,0 +1,38 @@
+[
+	{
+		"RelXpath": "//form[@onsubmit=\"return calculation()\"]",
+		"UniqueKey": "//body/form[0]/onsubmit"
+	},
+	{
+		"RelXpath": "//h1[@class=\"header\"]",
+		"UniqueKey": "//body/form/center/h1[0]/class"
+	},
+	{
+		"RelXpath": "//input[@id=\"customerName\"]",
+		"UniqueKey": "//body/form/center/h1/table/tbody/tr/td/input[1]/id"
+	},
+	{
+		"RelXpath": "//input[@name=\"customerName\"]",
+		"UniqueKey": "//body/form/center/h1/table/tbody/tr/td/input[1]/id[2]/name"
+	},
+	{
+		"RelXpath": "//textarea[@rows=\"5\"]",
+		"UniqueKey": "//body/form/center/h1/table/tbody/tr/td/textarea[0]/rows"
+	},
+	{
+		"RelXpath": "//textarea[@cols=\"20\"]",
+		"UniqueKey": "//body/form/center/h1/table/tbody/tr/td/textarea[0]/rows[1]/cols"
+	},
+	{
+		"RelXpath": "//textarea[@id=\"Address\"]",
+		"UniqueKey": "//body/form/center/h1/table/tbody/tr/td/textarea[0]/rows[1]/cols[3]/id"
+	},
+	{
+		"RelXpath": "//textarea[@name=\"address\"]",
+		"UniqueKey": "//body/form/center/h1/table/tbody/tr/td/textarea[0]/rows[1]/cols[3]/id[4]/name"
+	},
+	{
+		"RelXpath": "//div[@id=\"result\"]",
+		"UniqueKey": "//body/form/center/h1/table/div[0]/id"
+	}
+]
